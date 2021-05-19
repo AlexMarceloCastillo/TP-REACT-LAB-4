@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Home */
+.home{
+  width: 70%;
+  margin: auto;
+  margin-top: 10%;
+  justify-content: center;
+  text-align:center;
+}
+/* Direccion */
+.divmap{
+  width: 75%;
+  margin: auto;
+  margin-top: 2%;
+}
+.map{
+  width: 100%;
+  height: 75vh;
+}
+/* Productos */
+.instruments{
+  width: 50%;
+  margin: auto;
+}
+/* Carta */
+.carta{
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-bottom: 1px solid #C3C3C3;
+  padding: 2%;
+  display: flex;
+}
+.cartaimg{
+  margin-right: 5%;
+}
+.cartainfo{}
+.gratis{
+  color: green;
+}
+.pago{
+  color: #f95c07;
+}
+
+/* Detalle Instrumento */
+
+.detailInstrument{
+  width: 75%;
+  height: 75vh;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+}
+.imgDescript{
+  width: 75%;
+  border-right: 1px solid gray;
+  margin-right: 2%;
+}
+.imgDescript img{
+  width: 60%;
+  height: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+.imgDescript p{
+  font-size: 16px;
+}
+.propInstrument{
+  width: 25%;
+}
+.btnbuy{
+  margin-top: 10%;
+}
